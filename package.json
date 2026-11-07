@@ -1,0 +1,89 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface",
+        "tiles"
+    ],
+    "name": "tiles",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health",
+            "location"
+        ],
+        "displayName": "Tiles",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "SCHEME",
+            "TILE_TR",
+            "TILE_MR",
+            "TILE_BL",
+            "TILE_BR",
+            "TEMP_UNIT",
+            "TEMP",
+            "REQUEST_WEATHER",
+            "DEMO"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "type": "font",
+                    "name": "FONT_TIME_G_58",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[0-9:]",
+                    "targetPlatforms": ["gabbro"]
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_VALUE_G_32",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[0-9A-Z%.:°-]",
+                    "targetPlatforms": ["gabbro"]
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_LABEL_G_17",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[A-Z]",
+                    "targetPlatforms": ["gabbro"]
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_TIME_E_46",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[0-9:]",
+                    "targetPlatforms": ["emery"]
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_VALUE_E_28",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[0-9A-Z%.:°-]",
+                    "targetPlatforms": ["emery"]
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_LABEL_E_15",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "characterRegex": "[A-Z]",
+                    "targetPlatforms": ["emery"]
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "69ef6b3e-accd-4085-aaac-b077b1526e6a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}

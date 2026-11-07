@@ -1,0 +1,44 @@
+Tiles - Rebble App Store listing
+
+Wird bei jeder Veroeffentlichung mit aktualisiert. Englisch, reiner Text,
+jeder Absatz und jeder Listenpunkt auf EINER Zeile (der Store uebernimmt
+Umbrueche woertlich). Pruefen mit .\pb.ps1 finish tiles
+
+-------------------------------------------------------------------------
+
+TITLE
+
+Tiles
+
+
+TAGLINE
+
+Big, bold colour tiles: the time, the date and four values you choose.
+
+
+DESCRIPTION
+
+Tiles splits the screen into six rounded colour blocks. The time sits large in the white centre tile, the date in the top left, and the other four tiles show whatever you pick: temperature, heart rate, active minutes, battery, steps, distance, sleep or week number. Every value is set in a heavy, easy-to-read typeface, so one glance is enough.
+
+On Pebble Round 2 the round display trims the outer corners and the text moves towards the centre. On Pebble Time 2 the grid fills the whole rectangular screen. Pebble Round 2 has no heart rate sensor, so a heart rate tile shows active minutes there instead.
+
+
+SETTINGS
+
+- Colour scheme - Classic, Ocean, Sunset or Mono.
+- Top right, Middle right, Bottom left, Bottom right - the value each tile shows.
+- Temperature unit - automatic from the phone region, Celsius or Fahrenheit.
+
+Weather data comes from Open-Meteo and is refreshed every 30 minutes using your phone's location. 12 or 24 hour format and km or miles follow the watch settings.
+
+
+CATEGORY
+
+Watchfaces
+
+
+RELEASE NOTES
+
+1.0.0
+
+First release.

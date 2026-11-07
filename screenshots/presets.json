@@ -1,0 +1,7 @@
+{
+  "presets": [
+    { "name": "classic", "settings": { "DEMO": 1, "SCHEME": 0, "TILE_TR": 0, "TILE_MR": 1, "TILE_BL": 3, "TILE_BR": 4 } },
+    { "name": "ocean",   "settings": { "DEMO": 1, "SCHEME": 1, "TILE_TR": 0, "TILE_MR": 5, "TILE_BL": 6, "TILE_BR": 4 } },
+    { "name": "sunset",  "settings": { "DEMO": 1, "SCHEME": 2, "TILE_TR": 7, "TILE_MR": 1, "TILE_BL": 3, "TILE_BR": 5 } }
+  ]
+}
