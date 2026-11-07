@@ -42,6 +42,7 @@ First release.
 
 ## Status
 
+- 1.0.0 published on 2026-11-07: https://apps.rePebble.com/0eadc6f30da04ae293b0cfb1
 - 1.0.0 complete on emery and gabbro: layout, four configurable tiles, four colour
   schemes, weather via PebbleKit JS, demo mode for screenshots.
 - Font: Roboto Bold in three sizes per platform (time 58/46, values 32/28,
