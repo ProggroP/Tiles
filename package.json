@@ -80,6 +80,17 @@
             "emery",
             "gabbro"
         ],
+        "usesPermissions": [
+                "Location",
+                {
+                        "name": "Internet",
+                        "parameters": {
+                                "domains": [
+                                        "api.open-meteo.com"
+                                ]
+                        }
+                }
+        ],
         "uuid": "69ef6b3e-accd-4085-aaac-b077b1526e6a",
         "watchapp": {
             "watchface": true
